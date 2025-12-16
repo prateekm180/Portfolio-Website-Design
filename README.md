@@ -55,22 +55,22 @@ Portfolio-Website/
 
 │
 
-├── VarunPortfolio.html   # Main HTML file
+├── VarunPortfolio.html   
 
-├── VarunPortfolio.css    # Styling and animations
+├── VarunPortfolio.css    
 
-├── VarunPortfolio.js     # JavaScript functionality
+├── VarunPortfolio.js     
 
-├── images/               # Images and assets
+├── images/               
 
-└── README.md             # Project documentation
+└── README.md             
 
 
 # How to Run the Project:
 
 Download or clone the repository
 
-git clone https://github.com/your-username/portfolio-website.git
+git clone https://github.com/prateekm180/portfolio-website.git
 
 Open VarunPortfolio.html in any modern web browser.
 
@@ -119,6 +119,8 @@ Computer Science , 3rd Year Student
 GitHub: github.com/prateekm180
 
 LinkedIn: linkedin.com/in/varun-kumar-4164552b8
-📄 License
+
+
+# License :
 
 This project is open-source and free to use for learning and personal portfolio purposes.
