@@ -12,6 +12,7 @@ This project is a fully responsive personal portfolio website designed to presen
 🛠️ Tech Stack : 
 
 Languages Used: HTML, CSS, JavaScript.
+
 Libraries & Tools: Bootstrap 5, jQuery, AOS (Animate On Scroll), Bootstrap Icons, Google Fonts.
 
 🗓️ Project Timeline : 
