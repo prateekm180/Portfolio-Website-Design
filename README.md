@@ -1,29 +1,32 @@
 # Portfolio Website Design
 
-#🌐 Personal Portfolio Website Design
+# Personal Portfolio Website Design :
 
 A modern, responsive, and interactive personal portfolio website built using core frontend technologies. This project showcases a redesigned, dynamic portfolio layout focused on clean UI, smooth animations, and real-world usability.
 
-#📌 Project Description
+
+# Project Description:
 
 Description:
 Re-designed Working Dynamic Portfolio Outlook Project Using Frontend
-
 This project is a fully responsive personal portfolio website designed to present professional skills, projects, testimonials, blogs, and contact details in a visually appealing and user-friendly manner. The portfolio emphasizes modern design principles, smooth scrolling, animations, and interactive components to enhance user experience.
 
-#🛠️ Tech Stack
+
+# Tech Stack:
 
 Languages Used: HTML, CSS, JavaScript
 
 Libraries & Tools: Bootstrap 5, jQuery, AOS (Animate On Scroll), Bootstrap Icons, Google Fonts
 
-#🗓️ Project Timeline
+
+# Project Timeline:
 
 Starting Date: 5 January 2024
 
 Completion Date: 17 January 2024
 
-#✨ Key Features
+
+# Key Features:
 
 Fully responsive design (Mobile, Tablet, Desktop)
 
@@ -45,11 +48,13 @@ Contact form layout with clean UI
 
 Elegant hover effects and transitions
 
-#📂 Project Structure:
+
+# Project Structure:
 
 Portfolio-Website/
 
 │
+
 ├── VarunPortfolio.html   # Main HTML file
 
 ├── VarunPortfolio.css    # Styling and animations
@@ -60,7 +65,8 @@ Portfolio-Website/
 
 └── README.md             # Project documentation
 
-#🚀 How to Run the Project:
+
+# How to Run the Project:
 
 Download or clone the repository
 
@@ -70,13 +76,15 @@ Open VarunPortfolio.html in any modern web browser.
 
 No server or backend setup required — this is a pure frontend project.
 
-#🎥 Video Demo:
+
+# Video Demo:
 
 A complete video demonstration of the project is available on my LinkedIn profile, showcasing the design, animations, responsiveness, and overall workflow.
 
 🔗 Check it out on LinkedIn for a full walkthrough.
 
-#🎯 Purpose of This Project:
+
+# Purpose of This Project:
 
 Practice real-world frontend development
 
@@ -88,7 +96,8 @@ Demonstrate responsive and interactive web design
 
 Create a portfolio-ready project for recruiters and clients
 
-#📈 Future Improvements:
+
+# Future Improvements:
 
 Backend integration for contact form
 
@@ -100,7 +109,8 @@ Performance optimization
 
 SEO improvements
 
-#👤 Author : 
+
+# Author : 
 
 Varun Kumar
 
