@@ -1,6 +1,4 @@
-# Portfolio Website Design
-
-# Personal Portfolio Website Design :
+# Portfolio Website Design:
 
 A modern, responsive, and interactive personal portfolio website built using core frontend technologies. This project showcases a redesigned, dynamic portfolio layout focused on clean UI, smooth animations, and real-world usability.
 
