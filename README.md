@@ -11,38 +11,36 @@ This project is a fully responsive personal portfolio website designed to presen
 
 🛠️ Tech Stack : 
 
-Languages Used: HTML, CSS, JavaScript
-
-Libraries & Tools: Bootstrap 5, jQuery, AOS (Animate On Scroll), Bootstrap Icons, Google Fonts
+Languages Used: HTML, CSS, JavaScript.
+Libraries & Tools: Bootstrap 5, jQuery, AOS (Animate On Scroll), Bootstrap Icons, Google Fonts.
 
 🗓️ Project Timeline : 
 
-Starting Date: 5 January 2024
-
-Completion Date: 17 January 2024
+Starting Date: 5 January 2024.
+Completion Date: 17 January 2024.
 
 ✨ Key Features : 
 
-Fully responsive design (Mobile, Tablet, Desktop)
-Modern UI/UX with smooth animations
-Sticky navigation bar with scroll behavior
-Animated circular skill progress indicators
-Portfolio filtering system (All, Web App, Website, Game, Brand)
-Testimonials carousel
-Blog section with modal-based detailed views
-Contact form layout with clean UI
-“Back to Top” floating button
-Elegant hover effects and transitions
+Fully responsive design (Mobile, Tablet, Desktop).
+Modern UI/UX with smooth animations.
+Sticky navigation bar with scroll behavior.
+Animated circular skill progress indicators.
+Portfolio filtering system (All, Web App, Website, Game, Brand).
+Testimonials carousel.
+Blog section with modal-based detailed views.
+Contact form layout with clean UI.
+“Back to Top” floating button.
+Elegant hover effects and transitions.
 
 📂 Project Structure :
 
 Portfolio-Website/
-│
-├── VarunPortfolio.html   # Main HTML file
-├── VarunPortfolio.css    # Styling and animations
-├── VarunPortfolio.js     # JavaScript functionality
-├── images/               # Images and assets
-└── README.md             # Project documentation
+|
+|-- VarunPortfolio.html   # Main HTML file.
+|-- VarunPortfolio.css    # Styling and animations.
+|-- VarunPortfolio.js     # JavaScript functionality.
+|-- images/               # Images and assets.
+|-- README.md             # Project documentation.
 
 🚀 How to Run the Project : 
 
