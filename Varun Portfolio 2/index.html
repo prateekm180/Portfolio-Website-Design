@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Varun Kumar — GenAI &amp; ML Engineer</title>
+<meta name="description" content="Varun Kumar — Final year Computer Science student building intelligent, human-centric systems. GenAI, ML, Data Science &amp; Cloud." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader" aria-hidden="true">
+  <span class="preloader-mark">VK</span>
+</div>
+
+<!-- Custom cursor -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Noise / grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- Nav -->
+<header class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">VK</span>
+      <span class="brand-index">/ 01</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" data-nav>About</a>
+      <a href="#skills" data-nav>Skills</a>
+      <a href="#work" data-nav>Work</a>
+      <a href="#contact" data-nav>Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn btn-ghost nav-cta">
+      <span>Let's talk</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" data-nav>About</a>
+  <a href="#skills" data-nav>Skills</a>
+  <a href="#work" data-nav>Work</a>
+  <a href="#contact" data-nav>Contact</a>
+</div>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <canvas id="net" class="net-canvas" aria-hidden="true"></canvas>
+
+    <div class="hero-inner">
+      <p class="eyebrow reveal">
+        <span class="dot-live" aria-hidden="true"></span>
+        Final year CS student · Delhi
+      </p>
+
+      <h1 class="hero-title reveal">
+        <span class="line">Varun</span>
+        <span class="line accent">Kumar<span class="cursor-blink">.</span></span>
+      </h1>
+
+      <p class="hero-role reveal">
+        Building intelligent systems in
+        <span class="role-rotator" id="roleRotator">
+          <span class="role-word is-active">Generative&nbsp;AI</span>
+          <span class="role-word">Machine&nbsp;Learning</span>
+          <span class="role-word">Data&nbsp;Science</span>
+          <span class="role-word">Cloud</span>
+          <span class="role-word">AI&nbsp;Product&nbsp;Thinking</span>
+        </span>
+      </p>
+
+      <p class="hero-desc reveal">
+        CS undergrad specializing in GenAI &amp; ML, drawn to the intersection of
+        innovation and practicality — from an AI assistant modeled on J.A.R.V.I.S.
+        to voice &amp; face recognition systems and full-stack web apps.
+      </p>
+
+      <div class="hero-actions reveal">
+        <a href="#work" class="btn btn-primary magnetic">
+          <span>View my work</span>
+          <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="mailto:varunkumar43256@gmail.com" class="btn btn-outline magnetic">
+          <span>Get in touch</span>
+        </a>
+      </div>
+
+      <dl class="hero-stats reveal">
+        <div>
+          <dt>Focus</dt>
+          <dd>GenAI &amp; ML</dd>
+        </div>
+        <div>
+          <dt>Building</dt>
+          <dd>Kairen — AI Assistant</dd>
+        </div>
+        <div>
+          <dt>Open to</dt>
+          <dd>PM · AI Analyst · TPM roles</dd>
+        </div>
+      </dl>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to content">
+      <span class="scroll-cue-line"></span>
+      <span>Scroll</span>
+    </a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section about" id="about">
+    <div class="section-head reveal">
+      <span class="eyebrow">/ 02 — About</span>
+      <h2>Curiosity, pointed at useful things.</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-copy reveal">
+        <p>
+          I'm a Computer Science student at Delhi University, specializing in
+          Generative AI and Machine Learning, with a real pull toward building
+          intelligent, human-centric systems. I like sitting at the intersection
+          of innovation and practicality — whether that means creating an AI
+          assistant inspired by J.A.R.V.I.S. <em>(Kairen)</em>, developing voice
+          and face recognition systems, or designing web apps and games.
+          Turning an idea into something that actually works is the part I enjoy most.
+        </p>
+        <p>
+          Outside of coursework I freelance, sharing what I know and learning
+          from every project I break and fix. I'm now looking at Product
+          Manager, AI Product Analyst, and Technical Program Manager roles —
+          places where a hybrid background in engineering and leadership can
+          help ship responsible AI products that make a real difference.
+        </p>
+
+        <div class="interest-tags">
+          <span>Artificial Intelligence</span>
+          <span>Generative AI</span>
+          <span>ML &amp; DL</span>
+          <span>NLP</span>
+          <span>LLMs</span>
+          <span>Data Science</span>
+          <span>Cloud</span>
+          <span>AI Model Training</span>
+          <span>AI Product Management</span>
+          <span>Project Management</span>
+          <span>AI Analyst</span>
+        </div>
+      </div>
+
+      <aside class="about-panel reveal">
+        <div class="panel-row">
+          <span class="panel-label">Based in</span>
+          <span class="panel-value">Delhi, India</span>
+        </div>
+        <div class="panel-row">
+          <span class="panel-label">Studying</span>
+          <span class="panel-value">B.Sc Honours Computer Science</span>
+        </div>
+        <div class="panel-row">
+          <span class="panel-label">Core stack</span>
+          <span class="panel-value">Python · ReactJS · NodeJS · MySQL</span>
+        </div>
+        <div class="panel-row">
+          <span class="panel-label">Also using</span>
+          <span class="panel-value">C++ · Java · PHP · MongoDB · Arduino</span>
+        </div>
+        <div class="panel-row">
+          <span class="panel-label">Currently</span>
+          <span class="panel-value">OpenAI API · Google Cloud · GitHub</span>
+        </div>
+        <div class="panel-row">
+          <span class="panel-label">Also on</span>
+          <span class="panel-value">LeetCode, sharpening DSA daily</span>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section skills" id="skills">
+    <div class="section-head reveal">
+      <span class="eyebrow">/ 03 — Skills</span>
+      <h2>A toolkit built for shipping, not shelf&#8209;ware.</h2>
+    </div>
+
+    <div class="skills-tabs reveal" id="skillTabs" role="tablist">
+      <button class="skill-tab is-active" data-target="tab-lang" role="tab">Languages &amp; Core</button>
+      <button class="skill-tab" data-target="tab-ai" role="tab">AI, ML &amp; Data</button>
+      <button class="skill-tab" data-target="tab-web" role="tab">Web &amp; Databases</button>
+      <button class="skill-tab" data-target="tab-cloud" role="tab">Cloud &amp; Tools</button>
+      <button class="skill-tab" data-target="tab-lead" role="tab">Product &amp; Leadership</button>
+      <button class="skill-tab" data-target="tab-creative" role="tab">Creative</button>
+    </div>
+
+    <div class="skills-panels reveal">
+      <div class="skill-panel is-active" id="tab-lang">
+        <span class="tag">Python</span><span class="tag">C++</span><span class="tag">Java</span>
+        <span class="tag">TypeScript</span><span class="tag">JavaScript</span><span class="tag">PHP</span>
+        <span class="tag">DSA</span><span class="tag">Programming Fundamentals</span>
+      </div>
+      <div class="skill-panel" id="tab-ai">
+        <span class="tag">Generative AI</span><span class="tag">NLP</span><span class="tag">BERT</span>
+        <span class="tag">GPT&#8209;3</span><span class="tag">Hugging Face</span><span class="tag">Google Colab</span>
+        <span class="tag">Data Analysis</span><span class="tag">Microsoft Power BI</span>
+      </div>
+      <div class="skill-panel" id="tab-web">
+        <span class="tag">React.js</span><span class="tag">Node.js</span><span class="tag">HTML</span>
+        <span class="tag">CSS</span><span class="tag">Bootstrap</span><span class="tag">Drizzle Studio</span>
+        <span class="tag">Docker</span><span class="tag">PostgreSQL</span><span class="tag">MongoDB</span>
+        <span class="tag">MySQL</span><span class="tag">DBMS</span><span class="tag">GitHub &amp; Version Control</span>
+      </div>
+      <div class="skill-panel" id="tab-cloud">
+        <span class="tag">Google Cloud</span><span class="tag">Arduino</span><span class="tag">Arduino IDE</span>
+        <span class="tag">Figma</span><span class="tag">Google Workspace</span><span class="tag">Excel</span>
+        <span class="tag">Outlook</span><span class="tag">PowerPoint</span><span class="tag">Word</span><span class="tag">Access</span>
+      </div>
+      <div class="skill-panel" id="tab-lead">
+        <span class="tag">User Research</span><span class="tag">Cross&#8209;functional Coordination</span>
+        <span class="tag">Project Management</span><span class="tag">Team Leadership</span>
+        <span class="tag">People Management</span><span class="tag">Strategic Thinking</span>
+        <span class="tag">Agile Methodologies</span><span class="tag">Problem Solving</span>
+        <span class="tag">Attention to Detail</span><span class="tag">Communication</span>
+        <span class="tag">Presentations</span>
+      </div>
+      <div class="skill-panel" id="tab-creative">
+        <span class="tag">Adobe Photoshop</span><span class="tag">Video Editing</span>
+        <span class="tag">Digital Art</span><span class="tag">Poetry Writing</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORK ============ -->
+  <section class="section work" id="work">
+    <div class="section-head reveal">
+      <span class="eyebrow">/ 04 — Selected work</span>
+      <h2>Ideas I've turned into working systems.</h2>
+    </div>
+
+    <div class="filter-row reveal" id="filterRow">
+      <button class="filter-chip is-active" data-filter="all">All</button>
+      <button class="filter-chip" data-filter="ai">AI &amp; Vision</button>
+      <button class="filter-chip" data-filter="systems">Systems &amp; Data</button>
+      <button class="filter-chip" data-filter="web">Web</button>
+      <button class="filter-chip" data-filter="games">Games</button>
+    </div>
+
+    <div class="work-grid" id="workGrid">
+
+      <article class="work-card reveal" data-cat="ai">
+        <div class="work-card-inner">
+          <div class="work-top">
+            <span class="work-index">01</span>
+            <span class="work-status">In progress</span>
+          </div>
+          <h3>Kairen</h3>
+          <p class="work-tag">AI Assistant · Mobile + Windows</p>
+          <p class="work-desc">A J.A.R.V.I.S.-inspired personal AI assistant, built to run across mobile and desktop — an ongoing platform for experimenting with GenAI &amp; LLM integration.</p>
+        </div>
+      </article>
+
+      <article class="work-card reveal" data-cat="ai">
+        <div class="work-card-inner">
+          <div class="work-top">
+            <span class="work-index">02</span>
+          </div>
+          <h3>Face &amp; Voice Recognition</h3>
+          <p class="work-tag">Python</p>
+          <p class="work-desc">A biometric recognition system combining computer vision and speech processing to identify users by face and voice.</p>
+        </div>
+      </article>
+
+      <article class="work-card reveal" data-cat="ai">
+        <div class="work-card-inner">
+          <div class="work-top">
+            <span class="work-index">03</span>
+          </div>
+          <h3>Car Parking Detection</h3>
+          <p class="work-tag">Python · Computer Vision</p>
+          <p class="work-desc">A vision system that reads live footage of a parking lot and detects open vs. occupied spaces in real time.</p>
+        </div>
+      </article>
+
+      <article class="work-card reveal" data-cat="systems">
+        <div class="work-card-inner">
+          <div class="work-top">
+            <span class="work-index">04</span>
+          </div>
+          <h3>Weather Reporting System</h3>
+          <p class="work-tag">Python</p>
+          <p class="work-desc">A lightweight tool that pulls and reports live weather data, built as a hands-on exercise in APIs and data handling.</p>
+        </div>
+      </article>
+
+      <article class="work-card work-card--wide reveal" data-cat="systems">
+        <div class="work-card-inner">
+          <div class="work-top">
+            <span class="work-index">05</span>
+            <span class="work-status">7 systems</span>
+          </div>
+          <h3>Enterprise Management Suite</h3>
+          <p class="work-tag">Python · MySQL · Excel</p>
+          <p class="work-desc">A family of full-stack management systems built end-to-end — database design, business logic, and reporting — across seven different domains:</p>
+          <ul class="work-sublist">
+            <li>Sales Management System</li>
+            <li>Fee Management System</li>
+            <li>Learning Management System</li>
+            <li>Student Management System</li>
+            <li>Library Management System</li>
+            <li>Hospital Management System</li>
+            <li>School Management System</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="work-card reveal" data-cat="games">
+        <div class="work-card-inner">
+          <div class="work-top">
+            <span class="work-index">06</span>
+          </div>
+          <h3>2D Python Games</h3>
+          <p class="work-tag">Python · Pygame</p>
+          <p class="work-desc">A set of 2D games built with Pygame — game loops, collision logic, and sprite systems from scratch.</p>
+        </div>
+      </article>
+
+      <article class="work-card reveal" data-cat="web">
+        <div class="work-card-inner">
+          <div class="work-top">
+            <span class="work-index">07</span>
+          </div>
+          <h3>Portfolio Website</h3>
+          <p class="work-tag">HTML · CSS · JavaScript · React</p>
+          <p class="work-desc">This site's earlier version — a fully responsive personal portfolio, since rebuilt from the ground up.</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact" id="contact">
+    <div class="section-head reveal">
+      <span class="eyebrow">/ 05 — Contact</span>
+      <h2>Have a role, a project, or an idea?</h2>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <p class="contact-lead">
+          I'm actively looking at Product Manager, AI Product Analyst, and
+          Technical Program Manager roles, and I'm always up for a good
+          freelance build. Reach out — I read everything myself.
+        </p>
+
+        <ul class="contact-list">
+          <li>
+            <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M4 6h16v12H4z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 7l8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <a href="mailto:varunkumar43256@gmail.com">varunkumar43256@gmail.com</a>
+          </li>
+          <li>
+            <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M4.5 3h3.5l1.5 4.5-2.2 1.6a13 13 0 0 0 6.6 6.6l1.6-2.2 4.5 1.5V19a1.5 1.5 0 0 1-1.6 1.5A16.5 16.5 0 0 1 3 5.1 1.5 1.5 0 0 1 4.5 3z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+            <a href="tel:+919897269857">+91 98972 69857</a>
+          </li>
+          <li>
+            <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M12 21s7-6.1 7-11.5A7 7 0 0 0 5 9.5C5 14.9 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+            <span>Civil Lines, Moradabad, Uttar Pradesh, India</span>
+          </li>
+          <li>
+            <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.15-1.11-1.46-1.11-1.46-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.83-2.34 4.68-4.57 4.92.36.32.68.94.68 1.9v2.82c0 .27.18.58.69.48A10 10 0 0 0 12 2z" fill="currentColor"/></svg></span>
+            <a href="https://github.com/prateekm180" target="_blank" rel="noopener">github.com/prateekm180</a>
+          </li>
+          <li>
+            <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18"><rect x="3" y="3" width="18" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 10v7M7 7v.01M11 17v-4.5a2 2 0 0 1 4 0V17M11 12.5V17" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+            <a href="https://linkedin.com/in/varun-kumar-4164552b8" target="_blank" rel="noopener">linkedin.com/in/varun-kumar</a>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+        <div class="field">
+          <input type="text" id="cf-name" name="name" required />
+          <label for="cf-name">Your name</label>
+        </div>
+        <div class="field">
+          <input type="email" id="cf-email" name="email" required />
+          <label for="cf-email">Email address</label>
+        </div>
+        <div class="field">
+          <textarea id="cf-message" name="message" rows="4" required></textarea>
+          <label for="cf-message">Message</label>
+        </div>
+        <button type="submit" class="btn btn-primary magnetic">
+          <span>Send message</span>
+          <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <p class="form-hint" id="formHint">Opens your email app with this message pre-filled.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span class="brand-mark">VK</span>
+    <p>Designed &amp; built by Varun Kumar. &copy; <span id="year"></span> All rights reserved.</p>
+    <a href="#top" class="footer-top" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" width="16" height="16"><path d="M12 19V5M6 11l6-6 6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
